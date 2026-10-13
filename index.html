@@ -6,8 +6,8 @@
   <title>Hotel Selent · Vacaciones en familia a 200 m del mar · Mar del Plata</title>
   <meta name="description" content="Hotel Selent, Mar del Plata. Hotel familiar desde 1969, a 200 metros de la playa. Habitaciones y dúplex renovados para hasta 5 personas, desayuno buffet y estacionamiento propio. Consultá disponibilidad.">
   <meta name="theme-color" content="#0c3f3b">
-  <meta property="og:title" content="Hotel Selent · Disfrutá de tus vacaciones en familia">
-  <meta property="og:description" content="Hotel familiar desde 1969 a 200 m de la playa en Mar del Plata. Habitaciones y dúplex para hasta 5 personas, desayuno buffet incluido.">
+  <meta property="og:title" content="Hotel Selent · Vacaciones en familia a 200 m del mar · Mar del Plata">
+  <meta property="og:description" content="Hotel Selent, Mar del Plata. Hotel familiar desde 1969, a 200 metros de la playa. Habitaciones y dúplex renovados para hasta 5 personas, desayuno buffet y estacionamiento propio. Consultá disponibilidad.">
   <meta property="og:image" content="assets/img/hero-familia.webp">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -35,12 +35,6 @@
       "addressRegion": "Buenos Aires",
       "addressCountry": "AR"
     },
-    "amenityFeature": [
-      { "@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Desayuno buffet", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Estacionamiento privado", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Aire acondicionado", "value": true }
-    ],
     "sameAs": [
       "https://www.facebook.com/HotelSelent/",
       "https://www.instagram.com/hotel.selent/",
@@ -49,7 +43,7 @@
   }
   </script>
 </head>
-<body>
+<body data-page="index">
 
 <!-- Sprite de íconos -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -87,24 +81,22 @@
     <symbol id="i-trip" viewBox="0 0 24 24"><circle cx="7" cy="13" r="3.6"/><circle cx="17" cy="13" r="3.6"/><circle cx="7" cy="13" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/><path d="M3.3 9.2 1.5 7.5h5.2A11.5 11.5 0 0 1 12 6.2a11.5 11.5 0 0 1 5.3 1.3h5.2l-1.8 1.7M10.5 15.8 12 18l1.5-2.2"/></symbol>
   </defs>
 </svg>
-
 <a class="skip" href="#contenido">Saltar al contenido</a>
 
 <!-- ============ HEADER ============ -->
 <header class="site-header" id="top">
   <div class="wrap header-inner">
-    <a href="#top" class="brand" aria-label="Hotel Selent, inicio">
+    <a href="index.html" class="brand" aria-label="Hotel Selent, inicio">
       <span class="brand-stars" aria-hidden="true">★★</span>
       <span class="brand-name">Selent</span>
       <span class="brand-sub">Hotel · Superior</span>
     </a>
     <nav class="main-nav" aria-label="Principal">
-      <a href="#habitaciones">Habitaciones</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#hotel">El hotel</a>
-      <a href="#mar-del-plata">Mar del Plata</a>
-      <a href="#reservar">Cómo reservar</a>
-      <a href="#contacto">Contacto</a>
+      <a href="habitaciones.html">Habitaciones</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="el-hotel.html">El hotel</a>
+      <a href="mar-del-plata.html">Mar del Plata</a>
+      <a href="reservar.html">Reservas y contacto</a>
     </nav>
     <div class="header-cta">
       <a class="header-phone" href="tel:+542234940878"><svg class="ico"><use href="#i-phone"/></svg><span>(223) 494-0878</span></a>
@@ -114,21 +106,20 @@
   </div>
   <div class="mobile-menu" id="mobile-menu" hidden>
     <nav aria-label="Menú móvil">
-      <a href="#habitaciones">Habitaciones</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#hotel">El hotel</a>
-      <a href="#mar-del-plata">Mar del Plata</a>
-      <a href="#reservar">Cómo reservar</a>
-      <a href="#contacto">Contacto</a>
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="habitaciones.html">Habitaciones</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="el-hotel.html">El hotel</a>
+      <a href="mar-del-plata.html">Mar del Plata</a>
+      <a href="reservar.html">Reservas y contacto</a>
     </nav>
     <a class="btn btn-primary btn-block" href="#disponibilidad">Consultar disponibilidad</a>
   </div>
 </header>
-
 <main id="contenido">
 
 <!-- ============ HERO ============ -->
-<section class="hero" aria-label="Bienvenida">
+<section class="hero" aria-label="Bienvenida" data-hero>
   <div class="hero-media" aria-hidden="true">
     <img src="assets/img/hero-familia.webp" alt="" width="1327" height="751" fetchpriority="high">
   </div>
@@ -137,8 +128,8 @@
     <h1 class="hero-title reveal">Disfrutá de tus vacaciones <em>en familia</em></h1>
     <p class="hero-lead reveal">A 200 metros del mar, con la calidez de una familia que recibe familias desde hace más de cincuenta años.</p>
     <div class="hero-actions reveal">
-      <a class="btn btn-light" href="#habitaciones">Ver habitaciones</a>
-      <a class="link-light" href="#hotel">Conocé nuestra historia <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-light" href="habitaciones.html">Ver habitaciones</a>
+      <a class="link-light" href="el-hotel.html">Conocé nuestra historia <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
   </div>
 
@@ -197,8 +188,8 @@
   </div>
 </section>
 
-<!-- ============ BIENVENIDOS ============ -->
-<section class="section welcome" id="hotel">
+<!-- ============ BIENVENIDOS (resumen) ============ -->
+<section class="section welcome">
   <div class="wrap welcome-grid">
     <div class="welcome-media reveal">
       <figure class="wm wm-1"><img src="assets/img/recepcion.webp" alt="Recepción del Hotel Selent con living y pisos de madera" loading="lazy" width="1326" height="750"></figure>
@@ -208,306 +199,103 @@
     <div class="welcome-text">
       <p class="eyebrow reveal">Bienvenidos</p>
       <h2 class="h2 reveal">Una casa de familia frente al mar, <em>para la tuya</em></h2>
-      <p class="reveal">El Hotel Selent te da la bienvenida a la ciudad de Mar del Plata y te invita a conocer sus cómodas instalaciones. Nuestra trayectoria familiar, desde 1969 hasta la actualidad, la vocación por el servicio y la atención personalizada son nuestro gran atractivo.</p>
-      <p class="reveal">Te ofrecemos habitaciones y dúplex confortables y renovados para que tu estadía sea inolvidable.</p>
+      <p class="reveal">El Hotel Selent te da la bienvenida a la ciudad de Mar del Plata. Nuestra trayectoria familiar, desde 1969 hasta la actualidad, la vocación por el servicio y la atención personalizada son nuestro gran atractivo.</p>
       <blockquote class="quote reveal">
         <p>“La satisfacción de nuestros clientes es nuestra mayor inquietud.”</p>
         <cite>Familia Selent</cite>
       </blockquote>
-      <ul class="welcome-points reveal">
-        <li><svg class="ico"><use href="#i-check"/></svg> Atención personalizada, todos los días</li>
-        <li><svg class="ico"><use href="#i-check"/></svg> Habitaciones y dúplex renovados</li>
-        <li><svg class="ico"><use href="#i-check"/></svg> A pasos de la playa, el centro y la peatonal</li>
-      </ul>
+      <a class="more-link reveal" href="el-hotel.html">Conocé el hotel <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
   </div>
 </section>
 
-<!-- ============ HABITACIONES ============ -->
-<section class="section rooms" id="habitaciones">
+<!-- ============ HABITACIONES (destacadas) ============ -->
+<section class="section rooms">
   <div class="wrap">
     <div class="section-head">
       <div>
         <p class="eyebrow reveal">Habitaciones</p>
         <h2 class="h2 reveal">Un lugar para cada familia</h2>
       </div>
-      <p class="section-lead reveal">Desde la escapada en pareja hasta las vacaciones con toda la familia: dúplex para 4 y 5 personas, cuádruples, triples, dobles y single. Todas con desayuno incluido.</p>
+      <p class="section-lead reveal">Dúplex para 4 y 5 personas, cuádruples, triples, dobles y single, renovados y con desayuno incluido.</p>
     </div>
-
-    <div class="room-filter reveal" role="group" aria-label="Filtrar por cantidad de personas">
-      <span class="room-filter-label"><svg class="ico"><use href="#i-users"/></svg> ¿Cuántos viajan?</span>
-      <button class="chip is-active" data-guests="0" aria-pressed="true">Todos</button>
-      <button class="chip" data-guests="1" aria-pressed="false">1</button>
-      <button class="chip" data-guests="2" aria-pressed="false">2</button>
-      <button class="chip" data-guests="3" aria-pressed="false">3</button>
-      <button class="chip" data-guests="4" aria-pressed="false">4</button>
-      <button class="chip" data-guests="5" aria-pressed="false">5</button>
-    </div>
-
-    <div class="room-grid" id="room-grid">
-      <article class="room-card room-featured reveal" data-room="duplex-5" data-capacity="5">
-        <button class="room-media" data-open-room="duplex-5" aria-label="Ver Dúplex 5 personas">
-          <img src="assets/img/hab-duplex-5-sm.webp" srcset="assets/img/hab-duplex-5-sm.webp 720w, assets/img/hab-duplex-5.webp 1400w" sizes="(min-width: 960px) 60vw, 100vw" alt="Dúplex para 5 personas con tres camas" loading="lazy" width="720" height="480">
+    <div class="room-grid room-grid-teaser">
+      <article class="room-card reveal">
+        <a class="room-media" href="habitaciones.html#duplex-5" aria-label="Ver Dúplex 5 personas">
+          <img src="assets/img/hab-duplex-5-sm.webp" alt="Dúplex para 5 personas con tres camas" loading="lazy" width="720" height="480">
           <span class="tag">Ideal familias grandes</span>
-        </button>
+        </a>
         <div class="room-body">
-          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 5 personas</span><span><svg class="ico"><use href="#i-cup"/></svg> Desayuno incluido</span></div>
+          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 5 personas</span></div>
           <h3>Dúplex 5 personas</h3>
-          <p>Espacio de sobra para que cada uno tenga su lugar. Pensado para viajar todos juntos y descansar como en casa.</p>
           <div class="room-actions">
-            <button class="btn btn-ghost btn-sm" data-open-room="duplex-5">Ver detalles</button>
+            <a class="btn btn-ghost btn-sm" href="habitaciones.html#duplex-5">Ver detalles</a>
             <a class="btn btn-primary btn-sm" data-wa-room="Dúplex 5 personas" href="#">Consultar</a>
           </div>
         </div>
       </article>
-
-      <article class="room-card reveal" data-room="duplex-4" data-capacity="4">
-        <button class="room-media" data-open-room="duplex-4" aria-label="Ver Dúplex 4 personas">
-          <img src="assets/img/hab-duplex-4-sm.webp" alt="Dúplex para 4 personas con cama matrimonial" loading="lazy" width="720" height="480">
-          <span class="tag">Familias</span>
-        </button>
-        <div class="room-body">
-          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 4</span></div>
-          <h3>Dúplex 4 personas</h3>
-          <div class="room-actions">
-            <button class="btn btn-ghost btn-sm" data-open-room="duplex-4">Ver detalles</button>
-            <a class="btn btn-primary btn-sm" data-wa-room="Dúplex 4 personas" href="#">Consultar</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="room-card reveal" data-room="cuadruple" data-capacity="4">
-        <button class="room-media" data-open-room="cuadruple" aria-label="Ver habitación Cuádruple">
+      <article class="room-card reveal">
+        <a class="room-media" href="habitaciones.html#cuadruple" aria-label="Ver habitación Cuádruple">
           <img src="assets/img/hab-cuadruple-sm.webp" alt="Habitación cuádruple con cama matrimonial y dos camas individuales" loading="lazy" width="720" height="480">
           <span class="tag">Familias</span>
-        </button>
+        </a>
         <div class="room-body">
-          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 4</span></div>
+          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 4 personas</span></div>
           <h3>Cuádruple</h3>
           <div class="room-actions">
-            <button class="btn btn-ghost btn-sm" data-open-room="cuadruple">Ver detalles</button>
+            <a class="btn btn-ghost btn-sm" href="habitaciones.html#cuadruple">Ver detalles</a>
             <a class="btn btn-primary btn-sm" data-wa-room="Cuádruple" href="#">Consultar</a>
           </div>
         </div>
       </article>
-
-      <article class="room-card reveal" data-room="triple" data-capacity="3">
-        <button class="room-media" data-open-room="triple" aria-label="Ver habitación Triple">
-          <img src="assets/img/hab-triple-sm.webp" alt="Habitación triple con tres camas" loading="lazy" width="720" height="480">
-        </button>
-        <div class="room-body">
-          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 3</span></div>
-          <h3>Triple</h3>
-          <div class="room-actions">
-            <button class="btn btn-ghost btn-sm" data-open-room="triple">Ver detalles</button>
-            <a class="btn btn-primary btn-sm" data-wa-room="Triple" href="#">Consultar</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="room-card reveal" data-room="doble" data-capacity="2">
-        <button class="room-media" data-open-room="doble" aria-label="Ver habitación Doble">
+      <article class="room-card reveal">
+        <a class="room-media" href="habitaciones.html#doble" aria-label="Ver habitación Doble">
           <img src="assets/img/hab-doble-sm.webp" alt="Habitación doble con cama matrimonial" loading="lazy" width="720" height="480">
           <span class="tag">Parejas</span>
-        </button>
+        </a>
         <div class="room-body">
           <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> 2 personas</span></div>
           <h3>Doble</h3>
           <div class="room-actions">
-            <button class="btn btn-ghost btn-sm" data-open-room="doble">Ver detalles</button>
+            <a class="btn btn-ghost btn-sm" href="habitaciones.html#doble">Ver detalles</a>
             <a class="btn btn-primary btn-sm" data-wa-room="Doble" href="#">Consultar</a>
           </div>
         </div>
       </article>
-
-      <article class="room-card reveal" data-room="single" data-capacity="1">
-        <button class="room-media" data-open-room="single" aria-label="Ver habitación Single">
-          <img src="assets/img/hab-single-sm.webp" alt="Habitación single" loading="lazy" width="720" height="480">
-        </button>
-        <div class="room-body">
-          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> 1 persona</span></div>
-          <h3>Single</h3>
-          <div class="room-actions">
-            <button class="btn btn-ghost btn-sm" data-open-room="single">Ver detalles</button>
-            <a class="btn btn-primary btn-sm" data-wa-room="Single" href="#">Consultar</a>
-          </div>
-        </div>
-      </article>
     </div>
-    <p class="room-empty" id="room-empty" hidden>Para grupos más grandes combinamos habitaciones. <a href="#contacto">Escribinos</a> y te armamos la mejor opción.</p>
-
-    <div class="included reveal">
-      <p class="included-title">Todas las habitaciones incluyen</p>
-      <ul class="included-list">
-        <li><svg class="ico"><use href="#i-bath"/></svg> Baño privado</li>
-        <li><svg class="ico"><use href="#i-bed"/></svg> Sommiers</li>
-        <li><svg class="ico"><use href="#i-tv"/></svg> TV LCD por cable</li>
-        <li><svg class="ico"><use href="#i-wifi"/></svg> Wi-Fi</li>
-        <li><svg class="ico"><use href="#i-snow"/></svg> Aire acondicionado</li>
-        <li><svg class="ico"><use href="#i-flame"/></svg> Calefacción</li>
-        <li><svg class="ico"><use href="#i-fan"/></svg> Ventilador de techo</li>
-        <li><svg class="ico"><use href="#i-safe"/></svg> Caja de seguridad</li>
-        <li><svg class="ico"><use href="#i-dryer"/></svg> Secador de cabello</li>
-        <li><svg class="ico"><use href="#i-phone"/></svg> Discado local</li>
-        <li><svg class="ico"><use href="#i-cup"/></svg> Desayuno en la habitación sin cargo</li>
-      </ul>
+    <div class="section-foot reveal">
+      <a class="btn btn-ghost" href="habitaciones.html">Ver todas las habitaciones <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
   </div>
 </section>
 
-<!-- ============ DESAYUNO ============ -->
-<section class="breakfast">
-  <div class="wrap breakfast-grid">
-    <div class="breakfast-media reveal">
-      <img src="assets/img/desayuno.webp" alt="Salón de desayuno con pecera y buffet" loading="lazy" width="1326" height="750">
-    </div>
-    <div class="breakfast-text">
-      <p class="eyebrow eyebrow-light reveal">Desayuno buffet</p>
-      <h2 class="h2 reveal">Empezá el día <em>sin apuro</em></h2>
-      <p class="reveal">Comenzá el día con un completo desayuno. Nos encargamos de brindarte nuestros mejores y variados productos. ¿Preferís quedarte un rato más? Te lo llevamos a la habitación, sin cargo adicional.</p>
-      <ul class="menu-list reveal">
-        <li>Café con leche, té y chocolate</li>
-        <li>Jugo de naranja</li>
-        <li>Frutas de estación</li>
-        <li>Medialunas, facturas y budines</li>
-        <li>Tostadas, pan negro y blanco</li>
-        <li>Mermeladas, dulce de leche y manteca</li>
-        <li>Jamón y queso</li>
-        <li>Yogur y cereales</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- ============ SERVICIOS ============ -->
-<section class="section services" id="servicios">
+<!-- ============ SERVICIOS (destacados) ============ -->
+<section class="section highlights-section">
   <div class="wrap">
     <div class="section-head">
       <div>
         <p class="eyebrow reveal">Servicios</p>
         <h2 class="h2 reveal">Todo resuelto, <em>vos solo descansá</em></h2>
       </div>
-      <p class="section-lead reveal">Los detalles que hacen que unas vacaciones en familia sean de verdad tranquilas.</p>
+      <a class="more-link reveal" href="servicios.html">Ver todos los servicios <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
-    <div class="service-grid">
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-pin"/></svg></span><h3>Ubicación incomparable</h3><p>A 200 m de playas y casinos, a 600 m de la calle Güemes y del Paseo Aldrey, y a pocas cuadras de la peatonal San Martín.</p></article>
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-car"/></svg></span><h3>Estacionamiento privado</h3><p>Estacionamiento propio con cámaras de seguridad. Dejás el auto y te olvidás.</p></article>
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-cup"/></svg></span><h3>Desayuno buffet</h3><p>Completo y variado, incluido en tu estadía. También en la habitación, sin cargo.</p></article>
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-wifi"/></svg></span><h3>Wi-Fi las 24 hs</h3><p>Internet en todo el hotel para que te mantengas conectado.</p></article>
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-snow"/></svg></span><h3>Aire acondicionado</h3><p>Todas nuestras habitaciones cuentan con aire acondicionado moderno.</p></article>
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-flame"/></svg></span><h3>Calefacción central</h3><p>Ambientes cálidos para disfrutar Mar del Plata también en invierno.</p></article>
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-bell"/></svg></span><h3>Room service 24 hs</h3><p>Estamos para lo que necesites, a cualquier hora.</p></article>
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-plus"/></svg></span><h3>Asistencia médica</h3><p>Servicio de asistencia médica de emergencia para viajar tranquilos.</p></article>
-      <article class="service reveal"><span class="service-ico"><svg class="ico"><use href="#i-shield"/></svg></span><h3>Seguridad</h3><p>Caja de seguridad en cada habitación y establecimiento conectado a la Red Nikro Central de Alarmas.</p></article>
-    </div>
-  </div>
-</section>
-
-<!-- ============ GALERÍA ============ -->
-<section class="section gallery-section" aria-labelledby="galeria-title">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow reveal">Galería</p>
-        <h2 class="h2 reveal" id="galeria-title">Conocé el hotel</h2>
-      </div>
-      <p class="section-lead reveal">Recepción, living, bar y habitaciones: así te espera el Selent.</p>
-    </div>
-    <div class="gallery" id="gallery">
-      <button class="g-item g-tall reveal" data-full="assets/img/living.webp"><img src="assets/img/living.webp" alt="Living del hotel con sillones naranjas y vigas de madera" loading="lazy"></button>
-      <button class="g-item reveal" data-full="assets/img/bar.webp"><img src="assets/img/bar.webp" alt="Bar de madera con banquetas" loading="lazy"></button>
-      <button class="g-item reveal" data-full="assets/img/hab-duplex-5-b.webp"><img src="assets/img/hab-duplex-5-b-sm.webp" alt="Habitación con ventanal y balcón" loading="lazy"></button>
-      <button class="g-item g-wide reveal" data-full="assets/img/entrada-jardin.webp"><img src="assets/img/entrada-jardin.webp" alt="Patio de entrada con plantas y balcones" loading="lazy"></button>
-      <button class="g-item reveal" data-full="assets/img/hab-habitacion-matrimonial.webp"><img src="assets/img/hab-habitacion-matrimonial-sm.webp" alt="Habitación con cama matrimonial" loading="lazy"></button>
-      <button class="g-item g-tall reveal" data-full="assets/img/fachada-calle.webp"><img src="assets/img/fachada-calle.webp" alt="Fachada del Hotel Selent sobre calle Arenales" loading="lazy"></button>
-      <button class="g-item reveal" data-full="assets/img/hotel-balcones.webp"><img src="assets/img/hotel-balcones.webp" alt="Balcones y jardín interno del hotel" loading="lazy"></button>
-      <button class="g-item g-wide reveal" data-full="assets/img/entrada.webp"><img src="assets/img/entrada.webp" alt="Ingreso al estacionamiento propio" loading="lazy"></button>
-    </div>
-  </div>
-</section>
-
-<!-- ============ UBICACIÓN ============ -->
-<section class="section location" id="ubicacion">
-  <div class="wrap location-grid">
-    <div class="location-text">
-      <p class="eyebrow reveal">Ubicación</p>
-      <h2 class="h2 reveal">Todo cerca. <em>El mar, más.</em></h2>
-      <p class="reveal">Nuestra ubicación es incomparable: dejás el auto en el hotel y hacés todo caminando.</p>
-      <ul class="distances reveal">
-        <li><strong>200 m</strong><span>Playas y casinos</span></li>
-        <li><strong>600 m</strong><span>Calle comercial Güemes</span></li>
-        <li><strong>600 m</strong><span>Paseo cultural y comercial Aldrey</span></li>
-        <li><strong>Pocas cuadras</strong><span>Peatonal San Martín</span></li>
-      </ul>
-      <address class="reveal">
-        <svg class="ico"><use href="#i-pin"/></svg>
-        <span>Arenales 2347 · B7600EGE<br>Mar del Plata, Argentina</span>
-      </address>
-      <a class="btn btn-ghost reveal" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel+Selent+Arenales+2347+Mar+del+Plata" target="_blank" rel="noopener">Cómo llegar <svg class="ico"><use href="#i-arrow"/></svg></a>
-    </div>
-    <div class="map reveal">
-      <iframe title="Mapa: Hotel Selent, Arenales 2347, Mar del Plata" src="https://www.google.com/maps?q=Arenales+2347,+Mar+del+Plata,+Buenos+Aires&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-</section>
-
-<!-- ============ MAR DEL PLATA ============ -->
-<section class="mdp" id="mar-del-plata">
-  <div class="mdp-bg" aria-hidden="true"><img src="assets/img/mdp-atardecer.webp" alt="" loading="lazy"></div>
-  <div class="wrap mdp-inner">
-    <p class="eyebrow eyebrow-light reveal">Mar del Plata</p>
-    <h2 class="h2 mdp-title reveal">El principal centro turístico y balneario de la Argentina</h2>
-    <p class="mdp-lead reveal">A orillas del océano Atlántico, magníficas playas, amplias bahías, acantilados imponentes y bosques se alternan a lo largo de la costa. Sierras, lagunas, arroyos y canteras completan paisajes de gran belleza.</p>
-    <dl class="mdp-stats reveal">
-      <div><dt>47 km</dt><dd>de costa</dd></div>
-      <div><dt>404 km</dt><dd>de la Ciudad de Buenos Aires</dd></div>
-      <div><dt>23–27 °C</dt><dd>en verano</dd></div>
-      <div><dt>12–14 °C</dt><dd>en invierno</dd></div>
-    </dl>
-    <ul class="activities reveal" aria-label="Actividades">
-      <li>Paseos en bicicleta</li><li>Cabalgatas</li><li>Trekking y escalada</li><li>Surf y bodyboard</li><li>Paseos en barco y avioneta</li><li>Parapente</li><li>Buceo</li><li>Zoológicos y oceanario</li><li>Ferias de artesanos</li><li>Casinos</li>
+    <ul class="highlights">
+      <li class="reveal"><span class="service-ico"><svg class="ico"><use href="#i-pin"/></svg></span><h3>200 m del mar</h3><p>Playas y casinos a pasos, y la calle Güemes a 600 m.</p></li>
+      <li class="reveal"><span class="service-ico"><svg class="ico"><use href="#i-cup"/></svg></span><h3>Desayuno buffet</h3><p>Incluido, y también en la habitación sin cargo.</p></li>
+      <li class="reveal"><span class="service-ico"><svg class="ico"><use href="#i-car"/></svg></span><h3>Estacionamiento</h3><p>Propio, con cámaras de seguridad.</p></li>
+      <li class="reveal"><span class="service-ico"><svg class="ico"><use href="#i-bell"/></svg></span><h3>Room service 24 hs</h3><p>Estamos para lo que necesites, a cualquier hora.</p></li>
     </ul>
   </div>
 </section>
 
-<!-- ============ ATRACTIVOS ============ -->
-<section class="section attractions" aria-labelledby="atractivos-title">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow reveal">Atractivos turísticos</p>
-        <h2 class="h2 reveal" id="atractivos-title">Para armar la agenda</h2>
-      </div>
-      <div class="carousel-nav">
-        <button class="round-btn" data-scroll="-1" aria-label="Anterior"><svg class="ico"><use href="#i-chev-l"/></svg></button>
-        <button class="round-btn" data-scroll="1" aria-label="Siguiente"><svg class="ico"><use href="#i-chev-r"/></svg></button>
-      </div>
-    </div>
-  </div>
-  <div class="carousel" id="attractions" tabindex="0" aria-label="Atractivos turísticos de Mar del Plata">
-    <article class="spot" data-spot="puerto">
-      <img src="assets/img/at-puerto.webp" alt="Lanchas amarillas del puerto de Mar del Plata" loading="lazy">
-      <div class="spot-body"><h3>Puerto</h3><p>Lobos marinos, gaviotas, lanchas pesqueras y los exquisitos platos marineros. Un paseo obligado.</p><button class="spot-more" data-open-spot="puerto">Leer más <svg class="ico"><use href="#i-arrow"/></svg></button></div>
-    </article>
-    <article class="spot" data-spot="casas">
-      <img src="assets/img/at-villa.webp" alt="Villa Victoria, casa histórica de estilo inglés" loading="lazy">
-      <div class="spot-body"><h3>Casas con historia</h3><p>Villas de principios del siglo XX que hoy albergan algunos de los principales museos de la ciudad.</p><button class="spot-more" data-open-spot="casas">Leer más <svg class="ico"><use href="#i-arrow"/></svg></button></div>
-    </article>
-    <article class="spot" data-spot="museo">
-      <img src="assets/img/at-museo.webp" alt="Museo MAR con su escultura de lobo marino" loading="lazy">
-      <div class="spot-body"><h3>Museo MAR</h3><p>El Museo de Arte Contemporáneo de la Provincia de Buenos Aires, un ícono de la arquitectura moderna.</p><button class="spot-more" data-open-spot="museo">Leer más <svg class="ico"><use href="#i-arrow"/></svg></button></div>
-    </article>
-    <article class="spot" data-spot="microcentro">
-      <img src="assets/img/at-microcentro.webp" alt="Lobo marino de piedra frente a la playa Bristol" loading="lazy">
-      <div class="spot-body"><h3>Paseo por Microcentro</h3><p>El corazón de la ciudad late alrededor de la Plaza San Martín: pasado, presente y futuro de Mar del Plata.</p><button class="spot-more" data-open-spot="microcentro">Leer más <svg class="ico"><use href="#i-arrow"/></svg></button></div>
-    </article>
-    <article class="spot" data-spot="guemes">
-      <img src="assets/img/at-guemes.webp" alt="Calle Güemes con sus tiendas" loading="lazy">
-      <div class="spot-body"><h3>Centro Comercial Güemes</h3><p>Tiendas exclusivas, restaurantes, cafés y teatro todo el año, a solo 600 metros del hotel.</p><button class="spot-more" data-open-spot="guemes">Leer más <svg class="ico"><use href="#i-arrow"/></svg></button></div>
-    </article>
-  </div>
-  <div class="wrap">
-    <p class="attractions-foot reveal">Más información en el <a href="http://www.turismomardelplata.gov.ar/" target="_blank" rel="noopener">Sitio Oficial de Turismo de Mar del Plata</a>.</p>
+<!-- ============ MAR DEL PLATA (resumen) ============ -->
+<section class="mdp mdp-teaser">
+  <div class="mdp-bg" aria-hidden="true"><img src="assets/img/mdp-atardecer.webp" alt="" loading="lazy"></div>
+  <div class="wrap mdp-inner">
+    <p class="eyebrow eyebrow-light reveal">Mar del Plata</p>
+    <h2 class="h2 mdp-title reveal">El principal centro turístico y balneario de la Argentina</h2>
+    <p class="mdp-lead reveal">Playas, bahías, acantilados y bosques a lo largo de 47 km de costa, y una agenda para todos los gustos.</p>
+    <a class="btn btn-light reveal" href="mar-del-plata.html">Descubrí Mar del Plata</a>
   </div>
 </section>
 
@@ -533,91 +321,27 @@
   </div>
 </section>
 
-<!-- ============ CÓMO RESERVAR ============ -->
-<section class="section how" id="reservar">
-  <div class="wrap">
-    <div class="section-head section-head-center">
-      <p class="eyebrow reveal">Cómo reservar</p>
-      <h2 class="h2 reveal">Reservar es simple</h2>
-      <p class="section-lead reveal">Podés hacer tu consulta o reserva por teléfono, WhatsApp o correo electrónico y obtener de inmediato información detallada.</p>
-    </div>
-    <ol class="steps">
-      <li class="step reveal"><span class="step-n">1</span><h3>Consultanos</h3><p>Contanos fechas y cuántos viajan por WhatsApp, teléfono, mail o con el formulario de esta página.</p></li>
-      <li class="step reveal"><span class="step-n">2</span><h3>Recibí tu propuesta</h3><p>Te respondemos con disponibilidad, tarifas y la habitación ideal para tu familia.</p></li>
-      <li class="step reveal"><span class="step-n">3</span><h3>Confirmá</h3><p>Según la temporada, confirmás por teléfono o mail, o con un depósito bancario. ¡Y listo, a disfrutar!</p></li>
-    </ol>
-
-    <div class="conditions reveal">
-      <div class="conditions-text">
-        <h3>Condiciones de reserva</h3>
-        <ul>
-          <li><strong>De mayo a septiembre:</strong> podés reservar telefónicamente o por mail.</li>
-          <li><strong>Temporada media y alta, fines de semana largos y vacaciones de invierno:</strong> con contacto previo mediante el formulario de pre-reserva y depósito bancario.</li>
-        </ul>
-      </div>
-      <details class="bank">
-        <summary>Ver datos para el depósito bancario</summary>
-        <dl class="bank-data">
-          <div><dt>Banco</dt><dd>Banco de Galicia · Cuenta Corriente</dd></div>
-          <div><dt>Cuenta Nº</dt><dd><span>14309-3 078-2</span></dd></div>
-          <div><dt>Titulares</dt><dd>Gustavo Demetrio Selent y Ana María Selent</dd></div>
-          <div><dt>CBU</dt><dd><span class="mono" id="cbu">0070078820000014309322</span> <button class="copy" data-copy="0070078820000014309322" aria-label="Copiar CBU"><svg class="ico"><use href="#i-copy"/></svg><span>Copiar</span></button></dd></div>
-          <div><dt>CUIT</dt><dd><span class="mono">30601470310</span> <button class="copy" data-copy="30601470310" aria-label="Copiar CUIT"><svg class="ico"><use href="#i-copy"/></svg><span>Copiar</span></button></dd></div>
-        </dl>
-      </details>
-    </div>
-  </div>
-</section>
-
-<!-- ============ CONTACTO ============ -->
-<section class="contact" id="contacto">
-  <div class="wrap contact-grid">
-    <div class="contact-text">
-      <p class="eyebrow eyebrow-light reveal">Contactanos</p>
+<!-- ============ LLAMADO A LA ACCIÓN ============ -->
+<section class="cta-band">
+  <div class="wrap cta-inner">
+    <div>
+      <p class="eyebrow eyebrow-light reveal">Reservas</p>
       <h2 class="h2 reveal">Tus próximas vacaciones <em>empiezan acá</em></h2>
-      <p class="reveal">Envianos tu mensaje para recibir más información sobre nuestros servicios o consultanos por temas especiales. Estamos a tu disposición.</p>
-      <ul class="contact-list reveal">
-        <li><a href="https://wa.me/5492235310816" target="_blank" rel="noopener"><svg class="ico"><use href="#i-whatsapp"/></svg><span><small>WhatsApp</small>+54 9 223 531-0816</span></a></li>
-        <li><a href="tel:+542234940878"><svg class="ico"><use href="#i-phone"/></svg><span><small>Teléfonos</small>+54 (223) 494-0878 · 492-3920</span></a></li>
-        <li><a href="mailto:info@hotelselent.com.ar"><svg class="ico"><use href="#i-mail"/></svg><span><small>Email</small>info@hotelselent.com.ar</span></a></li>
-        <li><span class="contact-static"><svg class="ico"><use href="#i-pin"/></svg><span><small>Dirección</small>Arenales 2347 · Mar del Plata</span></span></li>
-      </ul>
+      <p class="reveal">Contanos tus fechas y cuántos viajan: te respondemos personalmente con disponibilidad y tarifas.</p>
     </div>
-    <form class="contact-form reveal" id="contact-form" novalidate>
-      <p class="form-title">Pre-reserva / Consulta</p>
-      <div class="form-row">
-        <label class="f"><span>Tu nombre *</span><input name="nombre" autocomplete="name" required></label>
-        <label class="f"><span>Tu email *</span><input name="email" type="email" autocomplete="email" required></label>
-      </div>
-      <div class="form-row">
-        <label class="f"><span>Llegada</span><input name="llegada" type="date"></label>
-        <label class="f"><span>Salida</span><input name="salida" type="date"></label>
-      </div>
-      <div class="form-row">
-        <label class="f"><span>Personas</span>
-          <select name="personas"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>Más de 5</option></select>
-        </label>
-        <label class="f"><span>Habitación</span>
-          <select name="habitacion" id="c-habitacion"><option value="">Sin preferencia</option><option>Dúplex 5 personas</option><option>Dúplex 4 personas</option><option>Cuádruple</option><option>Triple</option><option>Doble</option><option>Single</option></select>
-        </label>
-      </div>
-      <label class="f"><span>Mensaje</span><textarea name="mensaje" rows="3" placeholder="Contanos lo que necesites"></textarea></label>
-      <div class="form-actions">
-        <button class="btn btn-primary" type="submit" name="via" value="whatsapp"><svg class="ico"><use href="#i-whatsapp"/></svg> Enviar por WhatsApp</button>
-        <button class="btn btn-ghost" type="submit" name="via" value="email"><svg class="ico"><use href="#i-mail"/></svg> Enviar por email</button>
-      </div>
-      <p class="form-msg" id="form-msg" role="status"></p>
-    </form>
+    <div class="cta-actions reveal">
+      <a class="btn btn-primary" href="https://wa.me/5492235310816" target="_blank" rel="noopener"><svg class="ico"><use href="#i-whatsapp"/></svg> Escribinos por WhatsApp</a>
+      <a class="btn btn-outline-light" href="reservar.html">Cómo reservar</a>
+    </div>
   </div>
 </section>
-
 </main>
 
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div class="footer-brand">
-      <a href="#top" class="brand brand-footer" aria-label="Hotel Selent, volver arriba">
+      <a href="index.html" class="brand brand-footer" aria-label="Hotel Selent, inicio">
         <span class="brand-stars" aria-hidden="true">★★</span>
         <span class="brand-name">Selent</span>
         <span class="brand-sub">Hotel · Superior</span>
@@ -631,11 +355,13 @@
     </div>
     <nav class="footer-links" aria-label="Links rápidos">
       <p class="footer-title">Links rápidos</p>
-      <a href="#habitaciones">Habitaciones</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#mar-del-plata">Mar del Plata</a>
-      <a href="#reservar">Cómo reservar</a>
-      <a href="#contacto">Contacto</a>
+      <a href="index.html">Inicio</a>
+      <a href="habitaciones.html">Habitaciones</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="el-hotel.html">El hotel</a>
+      <a href="mar-del-plata.html">Mar del Plata</a>
+      <a href="reservar.html">Cómo reservar</a>
+      <a href="reservar.html#contacto">Contacto</a>
     </nav>
     <div class="footer-contact">
       <p class="footer-title">Contacto</p>
@@ -684,7 +410,6 @@
   <button class="lb-nav lb-next" aria-label="Siguiente"><svg class="ico"><use href="#i-chev-r"/></svg></button>
   <p class="lb-caption" id="lb-caption"></p>
 </dialog>
-
 <script src="assets/js/main.js" defer></script>
 </body>
 </html>

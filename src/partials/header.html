@@ -1,0 +1,33 @@
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="Hotel Selent, inicio">
+      <span class="brand-stars" aria-hidden="true">★★</span>
+      <span class="brand-name">Selent</span>
+      <span class="brand-sub">Hotel · Superior</span>
+    </a>
+    <nav class="main-nav" aria-label="Principal">
+      <a href="habitaciones.html"{{cur:habitaciones}}>Habitaciones</a>
+      <a href="servicios.html"{{cur:servicios}}>Servicios</a>
+      <a href="el-hotel.html"{{cur:el-hotel}}>El hotel</a>
+      <a href="mar-del-plata.html"{{cur:mar-del-plata}}>Mar del Plata</a>
+      <a href="reservar.html"{{cur:reservar}}>Reservas y contacto</a>
+    </nav>
+    <div class="header-cta">
+      <a class="header-phone" href="tel:+542234940878"><svg class="ico"><use href="#i-phone"/></svg><span>(223) 494-0878</span></a>
+      <a class="btn btn-primary btn-sm" href="{{booking_href}}">Reservar</a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Menú móvil">
+      <a href="index.html"{{cur:index}}>Inicio</a>
+      <a href="habitaciones.html"{{cur:habitaciones}}>Habitaciones</a>
+      <a href="servicios.html"{{cur:servicios}}>Servicios</a>
+      <a href="el-hotel.html"{{cur:el-hotel}}>El hotel</a>
+      <a href="mar-del-plata.html"{{cur:mar-del-plata}}>Mar del Plata</a>
+      <a href="reservar.html"{{cur:reservar}}>Reservas y contacto</a>
+    </nav>
+    <a class="btn btn-primary btn-block" href="{{booking_href}}">Consultar disponibilidad</a>
+  </div>
+</header>

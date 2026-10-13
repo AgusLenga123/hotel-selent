@@ -1,0 +1,73 @@
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="brand brand-footer" aria-label="Hotel Selent, inicio">
+        <span class="brand-stars" aria-hidden="true">★★</span>
+        <span class="brand-name">Selent</span>
+        <span class="brand-sub">Hotel · Superior</span>
+      </a>
+      <p>Hotel familiar en Mar del Plata desde 1969.</p>
+      <div class="social">
+        <a href="https://www.instagram.com/hotel.selent/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico"><use href="#i-instagram"/></svg></a>
+        <a href="https://www.facebook.com/HotelSelent/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ico"><use href="#i-facebook"/></svg></a>
+        <a href="https://www.tripadvisor.com.ar/Hotel_Review-g312749-d672856-Reviews-Hotel_Selent-Mar_del_Plata_Province_of_Buenos_Aires_Central_Argentina.html" target="_blank" rel="noopener" aria-label="Tripadvisor"><svg class="ico"><use href="#i-trip"/></svg></a>
+      </div>
+    </div>
+    <nav class="footer-links" aria-label="Links rápidos">
+      <p class="footer-title">Links rápidos</p>
+      <a href="index.html">Inicio</a>
+      <a href="habitaciones.html">Habitaciones</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="el-hotel.html">El hotel</a>
+      <a href="mar-del-plata.html">Mar del Plata</a>
+      <a href="reservar.html">Cómo reservar</a>
+      <a href="reservar.html#contacto">Contacto</a>
+    </nav>
+    <div class="footer-contact">
+      <p class="footer-title">Contacto</p>
+      <p>Arenales 2347 – B7600EGE<br>Mar del Plata – Argentina</p>
+      <p><a href="tel:+542234940878">+54 (223) 494-0878</a> / <a href="tel:+542234923920">492-3920</a><br><a href="https://wa.me/5492235310816" target="_blank" rel="noopener">+54 9 2235 31-0816</a><br><a href="mailto:info@hotelselent.com.ar">info@hotelselent.com.ar</a></p>
+    </div>
+    <form class="newsletter" id="newsletter" novalidate>
+      <p class="footer-title">Newsletter</p>
+      <p>Suscribite y enterate primero de promociones y fechas especiales.</p>
+      <div class="newsletter-row">
+        <label class="sr-only" for="nl-email">Tu email</label>
+        <input id="nl-email" type="email" placeholder="Tu email" autocomplete="email" required>
+        <button class="btn btn-primary btn-sm" type="submit">Enviar</button>
+      </div>
+      <p class="form-msg" id="nl-msg" role="status"></p>
+    </form>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year">2026</span> Hotel Selent · Mar del Plata, Argentina</p>
+    <a href="#top">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<!-- WhatsApp flotante -->
+<a class="wa-float" id="wa-float" href="https://wa.me/5492235310816" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <svg class="ico"><use href="#i-whatsapp"/></svg><span>¿Consultas? Escribinos</span>
+</a>
+
+<!-- Barra de reserva móvil -->
+<div class="mobile-bar" id="mobile-bar">
+  <a class="btn btn-ghost" href="tel:+542234940878"><svg class="ico"><use href="#i-phone"/></svg> Llamar</a>
+  <a class="btn btn-primary" href="{{booking_href}}"><svg class="ico"><use href="#i-whatsapp"/></svg> Consultar fechas</a>
+</div>
+
+<!-- Modal de habitación / atractivo -->
+<dialog class="modal" id="modal" aria-labelledby="modal-title">
+  <button class="modal-close" data-close aria-label="Cerrar"><svg class="ico"><use href="#i-close"/></svg></button>
+  <div class="modal-inner" id="modal-inner"></div>
+</dialog>
+
+<!-- Lightbox -->
+<dialog class="lightbox" id="lightbox" aria-label="Galería de imágenes">
+  <button class="modal-close" data-close aria-label="Cerrar"><svg class="ico"><use href="#i-close"/></svg></button>
+  <button class="lb-nav lb-prev" aria-label="Anterior"><svg class="ico"><use href="#i-chev-l"/></svg></button>
+  <img id="lb-img" alt="">
+  <button class="lb-nav lb-next" aria-label="Siguiente"><svg class="ico"><use href="#i-chev-r"/></svg></button>
+  <p class="lb-caption" id="lb-caption"></p>
+</dialog>

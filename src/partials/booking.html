@@ -1,0 +1,36 @@
+    <form class="booking" id="disponibilidad" novalidate>
+      <div class="booking-head">
+        <p class="booking-title">Consultá disponibilidad</p>
+        <p class="booking-note"><svg class="ico"><use href="#i-check"/></svg> Respuesta personalizada, sin intermediarios</p>
+      </div>
+      <div class="booking-fields">
+        <label class="field">
+          <span>Llegada</span>
+          <input type="date" name="llegada" id="b-llegada" required>
+        </label>
+        <label class="field">
+          <span>Salida</span>
+          <input type="date" name="salida" id="b-salida" required>
+        </label>
+        <div class="field field-guests">
+          <span id="lbl-adultos">Adultos</span>
+          <div class="stepper" data-min="1" data-max="5">
+            <button type="button" aria-label="Menos adultos" data-step="-1">−</button>
+            <output name="adultos" id="b-adultos" aria-labelledby="lbl-adultos">2</output>
+            <button type="button" aria-label="Más adultos" data-step="1">+</button>
+          </div>
+        </div>
+        <div class="field field-guests">
+          <span id="lbl-menores">Menores</span>
+          <div class="stepper" data-min="0" data-max="4">
+            <button type="button" aria-label="Menos menores" data-step="-1">−</button>
+            <output name="menores" id="b-menores" aria-labelledby="lbl-menores">1</output>
+            <button type="button" aria-label="Más menores" data-step="1">+</button>
+          </div>
+        </div>
+        <button class="btn btn-primary booking-submit" type="submit">
+          <svg class="ico"><use href="#i-whatsapp"/></svg> Consultar
+        </button>
+      </div>
+      <p class="booking-summary" id="b-summary" aria-live="polite"></p>
+    </form>

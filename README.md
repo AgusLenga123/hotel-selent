@@ -3,11 +3,27 @@
 Rediseño de https://hotelselent.com.ar/ con el mismo contenido. El sitio es estático (HTML + CSS + JS, sin dependencias ni build).
 
 ## Estructura
-- `index.html` — página única con todas las secciones
-- `assets/css/styles.css` — estilos (la paleta está en `:root`)
-- `assets/js/main.js` — interacciones y datos de habitaciones y atractivos (`ROOMS`, `SPOTS`)
-- `assets/img/` — imágenes optimizadas en WebP (~3 MB en total)
-- `_originales/` — fotos originales descargadas del sitio actual (no se publica)
+Seis páginas: `index.html` (inicio), `habitaciones.html`, `servicios.html`, `el-hotel.html`, `mar-del-plata.html` y `reservar.html` (reservas y contacto).
+
+**Los `.html` de la raíz se generan, no se editan a mano.** Las fuentes están en `src/`:
+- `src/layout.html`: estructura común (head, header, footer)
+- `src/partials/`: header, footer, íconos, buscador de disponibilidad y banda de reserva
+- `src/sections/`: cada sección del sitio
+- `src/pages/`: una por página, con título, descripción y qué secciones incluye
+
+Después de editar algo en `src/`, regenerar con:
+```
+python build.py
+```
+
+Otros archivos:
+- `assets/css/styles.css`: estilos (la paleta está en `:root`)
+- `assets/js/main.js`: interacciones y datos de las fichas de habitaciones (`ROOMS`)
+- `assets/img/`: imágenes optimizadas en WebP
+- `_originales/`: fotos originales del sitio actual (no se publica)
+
+## Publicación
+GitHub Pages publica la rama `main`: https://aguslenga123.github.io/hotel-selent/
 
 ## Ver en local
 ```

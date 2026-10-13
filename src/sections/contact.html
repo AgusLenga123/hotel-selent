@@ -1,0 +1,41 @@
+<!-- ============ CONTACTO ============ -->
+<section class="contact" id="contacto">
+  <div class="wrap contact-grid">
+    <div class="contact-text">
+      <p class="eyebrow eyebrow-light reveal">Contactanos</p>
+      <h2 class="h2 reveal">Tus próximas vacaciones <em>empiezan acá</em></h2>
+      <p class="reveal">Envianos tu mensaje para recibir más información sobre nuestros servicios o consultanos por temas especiales. Estamos a tu disposición.</p>
+      <ul class="contact-list reveal">
+        <li><a href="https://wa.me/5492235310816" target="_blank" rel="noopener"><svg class="ico"><use href="#i-whatsapp"/></svg><span><small>WhatsApp</small>+54 9 223 531-0816</span></a></li>
+        <li><a href="tel:+542234940878"><svg class="ico"><use href="#i-phone"/></svg><span><small>Teléfonos</small>+54 (223) 494-0878 · 492-3920</span></a></li>
+        <li><a href="mailto:info@hotelselent.com.ar"><svg class="ico"><use href="#i-mail"/></svg><span><small>Email</small>info@hotelselent.com.ar</span></a></li>
+        <li><span class="contact-static"><svg class="ico"><use href="#i-pin"/></svg><span><small>Dirección</small>Arenales 2347 · Mar del Plata</span></span></li>
+      </ul>
+    </div>
+    <form class="contact-form reveal" id="contact-form" novalidate>
+      <p class="form-title">Pre-reserva / Consulta</p>
+      <div class="form-row">
+        <label class="f"><span>Tu nombre *</span><input name="nombre" autocomplete="name" required></label>
+        <label class="f"><span>Tu email *</span><input name="email" type="email" autocomplete="email" required></label>
+      </div>
+      <div class="form-row">
+        <label class="f"><span>Llegada</span><input name="llegada" type="date"></label>
+        <label class="f"><span>Salida</span><input name="salida" type="date"></label>
+      </div>
+      <div class="form-row">
+        <label class="f"><span>Personas</span>
+          <select name="personas"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>Más de 5</option></select>
+        </label>
+        <label class="f"><span>Habitación</span>
+          <select name="habitacion" id="c-habitacion"><option value="">Sin preferencia</option><option>Dúplex 5 personas</option><option>Dúplex 4 personas</option><option>Cuádruple</option><option>Triple</option><option>Doble</option><option>Single</option></select>
+        </label>
+      </div>
+      <label class="f"><span>Mensaje</span><textarea name="mensaje" rows="3" placeholder="Contanos lo que necesites"></textarea></label>
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit" name="via" value="whatsapp"><svg class="ico"><use href="#i-whatsapp"/></svg> Enviar por WhatsApp</button>
+        <button class="btn btn-ghost" type="submit" name="via" value="email"><svg class="ico"><use href="#i-mail"/></svg> Enviar por email</button>
+      </div>
+      <p class="form-msg" id="form-msg" role="status"></p>
+    </form>
+  </div>
+</section>

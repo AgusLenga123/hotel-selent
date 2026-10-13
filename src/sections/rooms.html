@@ -1,0 +1,131 @@
+<!-- ============ HABITACIONES ============ -->
+<section class="section rooms" id="habitaciones">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Habitaciones</p>
+        <h2 class="h2 reveal">Un lugar para cada familia</h2>
+      </div>
+      <p class="section-lead reveal">Desde la escapada en pareja hasta las vacaciones con toda la familia: dúplex para 4 y 5 personas, cuádruples, triples, dobles y single. Todas con desayuno incluido.</p>
+    </div>
+
+    <div class="room-filter reveal" role="group" aria-label="Filtrar por cantidad de personas">
+      <span class="room-filter-label"><svg class="ico"><use href="#i-users"/></svg> ¿Cuántos viajan?</span>
+      <button class="chip is-active" data-guests="0" aria-pressed="true">Todos</button>
+      <button class="chip" data-guests="1" aria-pressed="false">1</button>
+      <button class="chip" data-guests="2" aria-pressed="false">2</button>
+      <button class="chip" data-guests="3" aria-pressed="false">3</button>
+      <button class="chip" data-guests="4" aria-pressed="false">4</button>
+      <button class="chip" data-guests="5" aria-pressed="false">5</button>
+    </div>
+
+    <div class="room-grid" id="room-grid">
+      <article class="room-card room-featured reveal" id="duplex-5" data-room="duplex-5" data-capacity="5">
+        <button class="room-media" data-open-room="duplex-5" aria-label="Ver Dúplex 5 personas">
+          <img src="assets/img/hab-duplex-5-sm.webp" srcset="assets/img/hab-duplex-5-sm.webp 720w, assets/img/hab-duplex-5.webp 1400w" sizes="(min-width: 960px) 60vw, 100vw" alt="Dúplex para 5 personas con tres camas" loading="lazy" width="720" height="480">
+          <span class="tag">Ideal familias grandes</span>
+        </button>
+        <div class="room-body">
+          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 5 personas</span><span><svg class="ico"><use href="#i-cup"/></svg> Desayuno incluido</span></div>
+          <h3>Dúplex 5 personas</h3>
+          <p>Espacio de sobra para que cada uno tenga su lugar. Pensado para viajar todos juntos y descansar como en casa.</p>
+          <div class="room-actions">
+            <button class="btn btn-ghost btn-sm" data-open-room="duplex-5">Ver detalles</button>
+            <a class="btn btn-primary btn-sm" data-wa-room="Dúplex 5 personas" href="#">Consultar</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room-card reveal" id="duplex-4" data-room="duplex-4" data-capacity="4">
+        <button class="room-media" data-open-room="duplex-4" aria-label="Ver Dúplex 4 personas">
+          <img src="assets/img/hab-duplex-4-sm.webp" alt="Dúplex para 4 personas con cama matrimonial" loading="lazy" width="720" height="480">
+          <span class="tag">Familias</span>
+        </button>
+        <div class="room-body">
+          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 4</span></div>
+          <h3>Dúplex 4 personas</h3>
+          <div class="room-actions">
+            <button class="btn btn-ghost btn-sm" data-open-room="duplex-4">Ver detalles</button>
+            <a class="btn btn-primary btn-sm" data-wa-room="Dúplex 4 personas" href="#">Consultar</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room-card reveal" id="cuadruple" data-room="cuadruple" data-capacity="4">
+        <button class="room-media" data-open-room="cuadruple" aria-label="Ver habitación Cuádruple">
+          <img src="assets/img/hab-cuadruple-sm.webp" alt="Habitación cuádruple con cama matrimonial y dos camas individuales" loading="lazy" width="720" height="480">
+          <span class="tag">Familias</span>
+        </button>
+        <div class="room-body">
+          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 4</span></div>
+          <h3>Cuádruple</h3>
+          <div class="room-actions">
+            <button class="btn btn-ghost btn-sm" data-open-room="cuadruple">Ver detalles</button>
+            <a class="btn btn-primary btn-sm" data-wa-room="Cuádruple" href="#">Consultar</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room-card reveal" id="triple" data-room="triple" data-capacity="3">
+        <button class="room-media" data-open-room="triple" aria-label="Ver habitación Triple">
+          <img src="assets/img/hab-triple-sm.webp" alt="Habitación triple con tres camas" loading="lazy" width="720" height="480">
+        </button>
+        <div class="room-body">
+          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> Hasta 3</span></div>
+          <h3>Triple</h3>
+          <div class="room-actions">
+            <button class="btn btn-ghost btn-sm" data-open-room="triple">Ver detalles</button>
+            <a class="btn btn-primary btn-sm" data-wa-room="Triple" href="#">Consultar</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room-card reveal" id="doble" data-room="doble" data-capacity="2">
+        <button class="room-media" data-open-room="doble" aria-label="Ver habitación Doble">
+          <img src="assets/img/hab-doble-sm.webp" alt="Habitación doble con cama matrimonial" loading="lazy" width="720" height="480">
+          <span class="tag">Parejas</span>
+        </button>
+        <div class="room-body">
+          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> 2 personas</span></div>
+          <h3>Doble</h3>
+          <div class="room-actions">
+            <button class="btn btn-ghost btn-sm" data-open-room="doble">Ver detalles</button>
+            <a class="btn btn-primary btn-sm" data-wa-room="Doble" href="#">Consultar</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room-card reveal" id="single" data-room="single" data-capacity="1">
+        <button class="room-media" data-open-room="single" aria-label="Ver habitación Single">
+          <img src="assets/img/hab-single-sm.webp" alt="Habitación single" loading="lazy" width="720" height="480">
+        </button>
+        <div class="room-body">
+          <div class="room-meta"><span><svg class="ico"><use href="#i-users"/></svg> 1 persona</span></div>
+          <h3>Single</h3>
+          <div class="room-actions">
+            <button class="btn btn-ghost btn-sm" data-open-room="single">Ver detalles</button>
+            <a class="btn btn-primary btn-sm" data-wa-room="Single" href="#">Consultar</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <p class="room-empty" id="room-empty" hidden>Para grupos más grandes combinamos habitaciones. <a href="reservar.html#contacto">Escribinos</a> y te armamos la mejor opción.</p>
+
+    <div class="included reveal">
+      <p class="included-title">Todas las habitaciones incluyen</p>
+      <ul class="included-list">
+        <li><svg class="ico"><use href="#i-bath"/></svg> Baño privado</li>
+        <li><svg class="ico"><use href="#i-bed"/></svg> Sommiers</li>
+        <li><svg class="ico"><use href="#i-tv"/></svg> TV LCD por cable</li>
+        <li><svg class="ico"><use href="#i-wifi"/></svg> Wi-Fi</li>
+        <li><svg class="ico"><use href="#i-snow"/></svg> Aire acondicionado</li>
+        <li><svg class="ico"><use href="#i-flame"/></svg> Calefacción</li>
+        <li><svg class="ico"><use href="#i-fan"/></svg> Ventilador de techo</li>
+        <li><svg class="ico"><use href="#i-safe"/></svg> Caja de seguridad</li>
+        <li><svg class="ico"><use href="#i-dryer"/></svg> Secador de cabello</li>
+        <li><svg class="ico"><use href="#i-phone"/></svg> Discado local</li>
+        <li><svg class="ico"><use href="#i-cup"/></svg> Desayuno en la habitación sin cargo</li>
+      </ul>
+    </div>
+  </div>
+</section>
